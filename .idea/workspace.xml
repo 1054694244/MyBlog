@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84cbcc7c-c523-4499-96d4-b245410b6870" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>url</find>
+      <find>static</find>
+      <find>123123123</find>
+      <find>title</find>
+      <find>login</find>
+      <find>formDemo</find>
+      <find>debugger</find>
+      <find>toObject</find>
+      <find>fast</find>
+      <find>toJson</find>
+      <find>getParentMenu</find>
+      <find>delete</find>
+      <find>userName</find>
+      <find>getRoleList</find>
+      <find>panrentId</find>
+      <find>list</find>
+      <find>JWT.create()</find>
+      <find>authorization</find>
+      <find>addRole</find>
+      <find>mysql</find>
+      <find>lettuce</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hIo8zwPn7ATMJhGD3UZr1lJ0Cd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602236566466" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog-web-fron-backend" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\blog\article\src\main\resources" />
+      <recent name="D:\workspace\blog\core\src\main\java\com\shenzc\utils" />
+      <recent name="D:\workspace\blog\user\src\main" />
+      <recent name="D:\workspace\blog\sso\src\main\resources\mapper" />
+      <recent name="D:\workspace\blog\sso\src\main\resources\static\json" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shenzc.controller" />
+      <recent name="com.shenzc.vo" />
+      <recent name="com.shenzc.resutl" />
+      <recent name="com.shenzc.test" />
+      <recent name="com.shenzc.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\blog\sso\src\main\resources\static\json" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ArticleApplication">
+    <configuration name="EchartsController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shenzc.controller.EchartsController" />
+      <module name="sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shenzc.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shenzc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shenzc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shenzc.test.Test1" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shenzc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shenzc.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSOApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shenzc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shenzc.SSOApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shenzc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shenzc.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EchartsController" />
+      <item itemvalue="JUnit.Test1.test4" />
+      <item itemvalue="Spring Boot.SSOApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.ArticleApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.SSOApplication" />
+        <item itemvalue="Application.EchartsController" />
+        <item itemvalue="JUnit.Test1.test4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\shenzhichao\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84cbcc7c-c523-4499-96d4-b245410b6870" name="Default Changelist" comment="" />
+      <created>1599444475713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599444475713</updated>
+      <workItem from="1599444480135" duration="17189000" />
+      <workItem from="1599539633605" duration="3157000" />
+      <workItem from="1599554455581" duration="1488000" />
+      <workItem from="1599555951488" duration="3921000" />
+      <workItem from="1599637553158" duration="12145000" />
+      <workItem from="1599707814342" duration="43000" />
+      <workItem from="1599707873578" duration="1042000" />
+      <workItem from="1599718237372" duration="19947000" />
+      <workItem from="1600735352374" duration="1045000" />
+      <workItem from="1600840317593" duration="680000" />
+      <workItem from="1600841362644" duration="65493000" />
+      <workItem from="1601433096793" duration="11671000" />
+      <workItem from="1602290906930" duration="2639000" />
+      <workItem from="1602565091009" duration="1211000" />
+      <workItem from="1602578496169" duration="10537000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test1_test2 - 2020.09.07 at 15h 05m 08s.xml">
+      <configuration name="Test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test2 - 2020.09.07 at 15h 05m 28s.xml">
+      <configuration name="Test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test2 - 2020.09.07 at 15h 07m 54s.xml">
+      <configuration name="Test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test3 - 2020.09.07 at 15h 21m 11s.xml">
+      <configuration name="Test1.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test3 - 2020.09.07 at 15h 21m 42s.xml">
+      <configuration name="Test1.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test4 - 2020.09.07 at 16h 47m 23s.xml">
+      <configuration name="Test1.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test4 - 2020.09.07 at 16h 48m 24s.xml">
+      <configuration name="Test1.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test4 - 2020.09.07 at 16h 52m 48s.xml">
+      <configuration name="Test1.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test4 - 2020.09.07 at 16h 52m 58s.xml">
+      <configuration name="Test1.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test4 - 2020.09.07 at 16h 59m 33s.xml">
+      <configuration name="Test1.test4" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602666625417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1602666625417" />
+    <state width="416" height="466" key="DebuggerActiveHint" timestamp="1600159109142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="416" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1600159109142" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1602667773388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602667773388" />
+    <state x="835" y="416" width="274" height="281" key="Github.ShareDialog" timestamp="1602722808962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="416" width="274" height="281" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602722808962" />
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom" timestamp="1602722941599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941599" />
+    <state width="1877" height="378" key="GridCell.Tab.0.center" timestamp="1602722941599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941599" />
+    <state width="1877" height="378" key="GridCell.Tab.0.left" timestamp="1602722941599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941599" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right" timestamp="1602722941599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941599" />
+    <state width="1877" height="378" key="GridCell.Tab.1.bottom" timestamp="1602722941600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941600" />
+    <state width="1877" height="378" key="GridCell.Tab.1.center" timestamp="1602722941599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941599" />
+    <state width="1877" height="378" key="GridCell.Tab.1.left" timestamp="1602722941599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941599" />
+    <state width="1877" height="378" key="GridCell.Tab.1.right" timestamp="1602722941599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941599" />
+    <state width="1877" height="378" key="GridCell.Tab.2.bottom" timestamp="1602722941600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941600" />
+    <state width="1877" height="378" key="GridCell.Tab.2.center" timestamp="1602722941600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941600" />
+    <state width="1877" height="378" key="GridCell.Tab.2.left" timestamp="1602722941600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941600" />
+    <state width="1877" height="378" key="GridCell.Tab.2.right" timestamp="1602722941600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="378" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602722941600" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1602722787565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602722787565" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602666710192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602666710192" />
+    <state x="452" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600156063793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600156063793" />
+    <state x="330" y="122" key="new project wizard" timestamp="1599707953726">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="122" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1599707953726" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/shenzc/intercept/AuthenticationInterceptor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="getMenu(loginUser.getUserId())" language="JAVA" />
+        <watch expression="menuVo.getMenuId()" language="JAVA" />
+        <watch expression="key" language="JAVA" />
+        <watch expression="menuService.getList(menuVo)" language="JAVA" />
+        <watch expression="CommonPage.restPage(list)" language="JAVA" />
+        <watch expression="httpServletRequest.getHeader(&quot;123&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>httpServletRequest.getHeader(&quot;123&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpServletRequest.getHeader(&quot;Authorization&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CommonPage.restPage(list)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>stock-preempt-api:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>article</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

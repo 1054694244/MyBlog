@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shenzc.mapper.RoleMapper">
+
+    <select id="selectAllRole" resultType="com.shenzc.vo.RoleVo">
+        select
+        r.*
+        from role r
+        <where>
+            <if test="roleName!=null and roleName!=''">
+                and r.role_name = #{roleName}
+            </if>
+        </where>
+    </select>
+
+    <select id="getTreeVoList" resultType="com.shenzc.vo.TreeVo">
+        select
+        m.menu_id as id,m.menu_name as title
+        from menu m
+        where m.parent_id = "0"
+    </select>
+
+    <select id="getChlidTreeList" resultType="com.shenzc.vo.TreeVo">
+        select
+        m.menu_id as id,m.menu_name as title
+        from menu m
+        where m.parent_id = #{menuId}
+    </select>
+
+    <select id="getSelectTreeId" resultType="java.lang.String">
+        select
+        r.menu_id as id
+        from role_menu r
+        left join menu m on m.menu_id = r.menu_id
+        where r.role_id = #{roleId} and m.parent_id != "0"
+    </select>
+</mapper>
