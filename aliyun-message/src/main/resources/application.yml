@@ -1,0 +1,16 @@
+# 服务端口，名
+server:
+  port: 9903
+spring:
+  application:
+    name: aliyun-message
+
+
+aliyun.accessKeyId: "LTAI4G4EZRuSK5PuS2fWiCYq"
+aliyun.accessSecret: "Qr8nXJh1LPnrykhFJqUZ0jLB6bWFAR"
+aliyun.SignName: "Shenzc商城"
+aliyun.TemplateCode: "SMS_173476912"
+aliyun.RegionId: "cn-hangzhou"
+aliyun.sysDomain: "dysmsapi.aliyuncs.com"
+aliyun.sysVersion: "2017-05-25"
+aliyun.sysAction: "SendSms"
