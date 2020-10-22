@@ -8,7 +8,7 @@
 package com.shenzc.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.shenzc.entity.Menu;
+import com.shenzc.entity.backendUser.Menu;
 import com.shenzc.vo.MenuVo;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;

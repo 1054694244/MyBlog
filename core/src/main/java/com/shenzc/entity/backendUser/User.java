@@ -5,7 +5,7 @@
  *
  * 版权归本公司所有，不得私自使用、拷贝、修改、删除，否则视为侵权
  */
-package com.shenzc.entity;
+package com.shenzc.entity.backendUser;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

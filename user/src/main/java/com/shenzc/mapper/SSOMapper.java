@@ -8,7 +8,7 @@
 package com.shenzc.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.shenzc.entity.User;
+import com.shenzc.entity.backendUser.User;
 import com.shenzc.vo.UserVo;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

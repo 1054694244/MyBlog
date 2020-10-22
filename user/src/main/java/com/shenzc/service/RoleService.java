@@ -7,10 +7,7 @@
  */
 package com.shenzc.service;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.github.pagehelper.PageHelper;
-import com.shenzc.entity.Role;
-import com.shenzc.mapper.MenuMapper;
 import com.shenzc.mapper.RoleMapper;
 import com.shenzc.mapper.RoleMenuMapper;
 import com.shenzc.mapper.SSOMapper;
@@ -18,14 +15,11 @@ import com.shenzc.resutl.CommonPage;
 import com.shenzc.resutl.ResultBody;
 import com.shenzc.vo.RoleVo;
 import com.shenzc.vo.TreeVo;
-import com.shenzc.vo.UserVo;
-import com.sun.deploy.panel.TreeBuilder;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.xml.transform.Result;
 import java.util.ArrayList;
 import java.util.List;
 

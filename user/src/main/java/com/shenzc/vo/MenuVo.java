@@ -7,7 +7,7 @@
  */
 package com.shenzc.vo;
 
-import com.shenzc.entity.Menu;
+import com.shenzc.entity.backendUser.Menu;
 import lombok.Data;
 
 import java.util.List;

@@ -8,8 +8,6 @@
 package com.shenzc.service;
 
 import com.github.pagehelper.PageHelper;
-import com.shenzc.entity.RoleMenu;
-import com.shenzc.mapper.RoleMapper;
 import com.shenzc.mapper.SSOMapper;
 import com.shenzc.vo.UserVo;
 import lombok.extern.slf4j.Slf4j;

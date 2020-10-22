@@ -8,31 +8,29 @@
 package com.shenzc.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.api.R;
-import com.shenzc.entity.Menu;
-import com.shenzc.entity.Role;
-import com.shenzc.entity.RoleMenu;
-import com.shenzc.entity.User;
+import com.shenzc.constant.URLConstant;
+import com.shenzc.entity.backendUser.Menu;
+import com.shenzc.entity.backendUser.Role;
+import com.shenzc.entity.backendUser.RoleMenu;
+import com.shenzc.entity.backendUser.User;
 import com.shenzc.mapper.MenuMapper;
 import com.shenzc.mapper.RoleMapper;
 import com.shenzc.mapper.RoleMenuMapper;
 import com.shenzc.mapper.SSOMapper;
-import com.shenzc.utils.FastJsonUtils;
 import com.shenzc.vo.MenuVo;
 import com.shenzc.vo.UserVo;
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
@@ -55,11 +53,13 @@ public class SSOService {
     private RoleMenuMapper roleMenuMapper;
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
+    @Autowired
+    private HttpAPIService httpAPIService;
 
 
     /**
      * 登录，如果账号密码正确，则返回菜单，反之null
-     * @param user
+     * @param user·
      * @return
      */
     public User login(UserVo user){
@@ -130,12 +130,19 @@ public class SSOService {
         int num = (int)((Math.random()*9+1)*100000);
         String code = String.valueOf(num);
         try {
-            stringRedisTemplate.opsForValue().set(phone,code);
+            stringRedisTemplate.opsForValue().set(phone,code,5, TimeUnit.MINUTES);
         }catch (Exception e){
             throw new RuntimeException("redis设置验证码失败",e);
         }
         //使用aliyun发送短信
-
+        Map<String,Object> paramMap = new HashMap<>();
+        paramMap.put("code",code);
+        paramMap.put("phone",phone);
+        try{
+            httpAPIService.doGet(URLConstant.messageUrl, paramMap);
+        }catch (Exception e){
+            throw new RuntimeException("调用阿里云短信接口异常",e);
+        }
         return code;
     }
 }

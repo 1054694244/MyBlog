@@ -1,7 +1,7 @@
 package com.shenzc.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.shenzc.entity.Role;
+import com.shenzc.entity.backendUser.Role;
 import com.shenzc.vo.RoleVo;
 import com.shenzc.vo.TreeVo;
 import org.apache.ibatis.annotations.Mapper;

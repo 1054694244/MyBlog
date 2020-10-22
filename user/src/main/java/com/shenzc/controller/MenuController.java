@@ -7,14 +7,13 @@
  */
 package com.shenzc.controller;
 
-import com.shenzc.entity.Menu;
+import com.shenzc.entity.backendUser.Menu;
 import com.shenzc.resutl.CommonPage;
 import com.shenzc.resutl.ResultBody;
 import com.shenzc.service.MenuService;
 import com.shenzc.service.SSOService;
 import com.shenzc.vo.MenuVo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

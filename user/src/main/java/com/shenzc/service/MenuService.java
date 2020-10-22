@@ -9,7 +9,7 @@ package com.shenzc.service;
 
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.github.pagehelper.PageHelper;
-import com.shenzc.entity.Menu;
+import com.shenzc.entity.backendUser.Menu;
 import com.shenzc.mapper.MenuMapper;
 import com.shenzc.vo.MenuVo;
 import org.springframework.beans.factory.annotation.Autowired;

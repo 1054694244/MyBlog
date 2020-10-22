@@ -7,7 +7,7 @@
  */
 package com.shenzc.vo;
 
-import com.shenzc.entity.Role;
+import com.shenzc.entity.backendUser.Role;
 import lombok.Data;
 
 /**

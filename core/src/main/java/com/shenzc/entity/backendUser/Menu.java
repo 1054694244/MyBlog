@@ -5,8 +5,10 @@
  *
  * 版权归本公司所有，不得私自使用、拷贝、修改、删除，否则视为侵权
  */
-package com.shenzc.entity;
+package com.shenzc.entity.backendUser;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 import java.util.Date;
@@ -14,16 +16,20 @@ import java.util.Date;
 /**
  * @Description:
  * @Author Shenzc
- * @Date 2020/9/29 15:11
+ * @Date 2020/9/7 17:45
  */
 @Data
-public class Category {
-
+public class Menu {
+    @TableId(type = IdType.AUTO)
     private Integer id;
 
-    private String categoryId;
+    private String menuId;
 
-    private String categoryName;
+    private String menuName;
+
+    private String parentId;
+
+    private String url;
 
     private String createBy;
 
@@ -32,5 +38,4 @@ public class Category {
     private String updateBy;
 
     private Date updateTime;
-
 }

@@ -7,21 +7,16 @@
  */
 package com.shenzc.controller;
 
-import com.shenzc.entity.Menu;
-import com.shenzc.entity.User;
 import com.shenzc.resutl.CommonPage;
 import com.shenzc.resutl.ResultBody;
-import com.shenzc.service.MenuService;
 import com.shenzc.service.RoleService;
 import com.shenzc.service.UserService;
-import com.shenzc.vo.MenuVo;
 import com.shenzc.vo.RoleVo;
 import com.shenzc.vo.UserVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
