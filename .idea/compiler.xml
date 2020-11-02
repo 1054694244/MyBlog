@@ -10,6 +10,8 @@
         <module name="core" />
         <module name="user" />
         <module name="article" />
+        <module name="aliyun-message" />
+        <module name="front-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,8 +21,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aliyun-message" options="-parameters" />
       <module name="article" options="-parameters" />
       <module name="core" options="-parameters" />
+      <module name="front-user" options="-parameters" />
       <module name="sso" options="" />
       <module name="user" options="-parameters" />
     </option>
