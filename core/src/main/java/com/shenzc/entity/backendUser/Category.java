@@ -7,6 +7,7 @@
  */
 package com.shenzc.entity.backendUser;
 
+import com.shenzc.anno.valid.MyValid;
 import lombok.Data;
 
 import java.util.Date;
@@ -19,11 +20,15 @@ import java.util.Date;
 @Data
 public class Category {
 
+    @MyValid
     private Integer id;
 
+    @MyValid
     private String categoryId;
 
     private String categoryName;
+
+    private String parentCategoryId;
 
     private String createBy;
 

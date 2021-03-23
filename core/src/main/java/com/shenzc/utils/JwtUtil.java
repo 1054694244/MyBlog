@@ -63,11 +63,17 @@ public class JwtUtil {
             return false;
         } catch (JWTVerificationException e) {
             return false;
+        }catch (Exception e){
+            return false;
         }
     }
 
-    public static String usesrname(){
+    public static String username(){
         return jwt.getClaim("username").asString();
+    }
+
+    public static String roleId(){
+        return jwt.getClaim("roleId").asString();
     }
 
     public static String userId(){

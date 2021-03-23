@@ -1,8 +1,0 @@
-# 服务端口，名
-server:
-  port: 9903
-spring:
-  application:
-    name: aliyun-message
-
-

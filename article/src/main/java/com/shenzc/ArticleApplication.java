@@ -8,6 +8,8 @@
 package com.shenzc;
 
 import org.mybatis.spring.annotation.MapperScan;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -19,7 +21,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan("com.shenzc")
 public class ArticleApplication {
+
+    public static final Logger logger = LoggerFactory.getLogger(ArticleApplication.class);
+
+
     public static void main(String[] args) {
+        logger.info("你好啊");
         SpringApplication.run(ArticleApplication.class,args);
     }
 }

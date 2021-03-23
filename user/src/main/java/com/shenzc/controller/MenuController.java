@@ -12,6 +12,7 @@ import com.shenzc.resutl.CommonPage;
 import com.shenzc.resutl.ResultBody;
 import com.shenzc.service.MenuService;
 import com.shenzc.service.SSOService;
+import com.shenzc.utils.JwtUtil;
 import com.shenzc.vo.MenuVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -39,8 +40,8 @@ public class MenuController {
     }
 
     @GetMapping("/getMenu")
-    public ResultBody getMenu(@RequestParam(value = "roleId")String roleId){
-        //String menuJson = ssoService.getMenu(roleId);
+    public ResultBody getMenu(){
+        String roleId = JwtUtil.roleId();
         return ResultBody.success(ssoService.getMenu(roleId));
     }
 

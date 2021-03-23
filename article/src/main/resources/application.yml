@@ -21,9 +21,11 @@ mybatis-plus:
   global-config:
     # 逻辑删除配置
     db-config:
+      #全局逻辑删除，只要实体类中字段又isDelete，将做逻辑删除（或者不配置，在实体类中字段上加上@TableLogic注解）
+      logic-delete-field: isDelete
       # 删除前
-      logic-not-delete-value: 1
+      logic-not-delete-value: 0
       # 删除后
-      logic-delete-value: 0
+      logic-delete-value: 1
 server:
   port: 9902

@@ -19,6 +19,7 @@ import com.shenzc.mapper.RoleMenuMapper;
 import com.shenzc.mapper.SSOMapper;
 import com.shenzc.vo.MenuVo;
 import com.shenzc.vo.UserVo;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
@@ -65,7 +66,7 @@ public class SSOService {
     public User login(UserVo user){
         User loginUser = null;
         //判断是密码登录还是手机验证登录
-        if (!"".equals(user.getCode()) || user.getCode() == null){
+        if (StringUtils.isBlank(user.getPhone())){
             loginUser = ssoMapper.selectOne(new QueryWrapper<User>().eq("username", user.getUsername()).eq("password", user.getPassword()));
         }else {
             //从redis里面获取code
@@ -140,6 +141,7 @@ public class SSOService {
         paramMap.put("phone",phone);
         try{
             httpAPIService.doGet(URLConstant.messageUrl, paramMap);
+            //httpAPIService.doGet("http://localhost:9903/aliyun/message/sendMessage?code=891230&phone=13545249738");
         }catch (Exception e){
             throw new RuntimeException("调用阿里云短信接口异常",e);
         }

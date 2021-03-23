@@ -2,20 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84cbcc7c-c523-4499-96d4-b245410b6870" name="Default Changelist" comment="代码第一次提交">
-      <change afterPath="$PROJECT_DIR$/aliyun-message/aliyun-message.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CamelCaseConfigNew.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aliyun/aliyun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/controller/OssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/service/OssService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aliyun/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aliyun/src/main/resources/log4j2-spring.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/controller/DRFApiControrller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/controller/FileController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/mapper/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/mapper/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/mapper/DictValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/mapper/FileMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/AreaParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/BlogParams.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/BlogVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/BusinessAnalysisParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/BusinessAnalysisVo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/CategoryXMSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/MerchantAnalysisVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/MerchantParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/StoreParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/FileVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/resources/log4j2-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/src/main/resources/mapper/FileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/anno/excel/ExcelAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/anno/valid/MyConstraintValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/anno/valid/MyValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/config/MyMetaObjectHandlerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/entity/backendUser/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/entity/backendUser/DictValue.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/entity/front/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/entity/front/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/enumeration/BlogSelected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/enumeration/BlogStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/enumeration/BlogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/exception/BadRequestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/service/BeanValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/utils/ExcelUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-user/front-user.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-user/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-user/src/main/java/com/shenzc/FrontUserApplication.java" afterDir="false" />
@@ -27,28 +52,52 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun-message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun-message/src/main/java/com/shenzc/MessageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/MessageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun-message/src/main/java/com/shenzc/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun-message/src/main/java/com/shenzc/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun-message/src/main/java/com/shenzc/vo/AliyunVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/vo/AliyunVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun-message/src/main/java/com/shenzc/vo/TemplateParamVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/vo/TemplateParamVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun-message/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/src/main/java/com/shenzc/ArticleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/ArticleApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/src/main/java/com/shenzc/category/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/src/main/java/com/shenzc/category/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/src/main/java/com/shenzc/category/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/src/main/java/com/shenzc/category/service/CategoryService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/article/src/main/java/com/shenzc/category/vo/CategoryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo/CategoryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/target/classes/com/shenzc/ArticleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/classes/com/shenzc/ArticleApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/target/classes/com/shenzc/category/controller/CategoryController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/article/target/classes/com/shenzc/category/mapper/CategoryMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/article/target/classes/com/shenzc/category/service/CategoryService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/article/target/classes/com/shenzc/category/vo/CategoryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/shenzc/constant/URLConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/constant/URLConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/shenzc/entity/backendUser/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/entity/backendUser/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/shenzc/service/HttpAPIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/service/HttpAPIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/shenzc/service/IdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/service/IdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/shenzc/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/utils/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/shenzc/entity/Category.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/shenzc/entity/Menu.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/shenzc/entity/Role.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/shenzc/entity/RoleMenu.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/shenzc/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/shenzc/service/IdService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/shenzc/service/IdService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/shenzc/utils/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/shenzc/utils/JwtUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/shenzc/intercept/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/shenzc/intercept/AuthenticationInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/com/shenzc/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/shenzc/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/shenzc/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/shenzc/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/shenzc/intercept/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/shenzc/intercept/AuthenticationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/shenzc/service/SSOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/shenzc/service/SSOService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/config/InterceptorConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/com/shenzc/controller/MenuController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/controller/SSOController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/com/shenzc/controller/SSOController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/com/shenzc/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/intercept/AuthenticationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/com/shenzc/intercept/AuthenticationInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/intercept/AuthenticationInterceptor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/mapper/MenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/com/shenzc/mapper/MenuMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/com/shenzc/mapper/RoleMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/shenzc/mapper/RoleMenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/com/shenzc/mapper/RoleMenuMapper.class" afterDir="false" />
@@ -88,6 +137,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -119,35 +169,49 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602236566466" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/vo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sharding_JDBC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.CamelCasePlugin" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\blog\sso\src\main\resources\static\json" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shenzc.config" />
-      <recent name="com.shenzc.category.vo" />
-      <recent name="com.shenzc.controller" />
-      <recent name="com.shenzc.vo" />
-      <recent name="com.shenzc.resutl" />
+      <recent name="com.shenzc.artiicleCategory.mapper" />
+      <recent name="com.shenzc.artiicleCategory.service" />
+      <recent name="com.shenzc.entity.backendUser" />
+      <recent name="com.shenzc.enumeration" />
+      <recent name="com.shenzc.intercept" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_tool\workspace\blog\article\src\main\resources\mapper" />
+      <recent name="D:\java_tool\workspace\blog\aliyun\src\main\resources" />
       <recent name="D:\java_tool\workspace\blog\article\src\main\java\com\shenzc\artiicleCategory\vo" />
       <recent name="D:\java_tool\workspace\blog\front-user\src\main\resources" />
       <recent name="D:\java_tool\workspace\blog\article\src\main\java\com\shenzc\category\vo" />
-      <recent name="D:\workspace\blog\article\src\main\resources" />
-      <recent name="D:\workspace\blog\core\src\main\java\com\shenzc\utils" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ArticleApplication">
+    <configuration name="BlogController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shenzc.artiicleCategory.controller.BlogController" />
+      <module name="article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shenzc.artiicleCategory.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="article" />
       <extension name="coverage">
@@ -175,7 +239,7 @@
       </method>
     </configuration>
     <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="aliyun-message" />
+      <module name="aliyun" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shenzc.*" />
@@ -183,19 +247,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shenzc.MessageApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SSOApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sso" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shenzc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shenzc.SSOApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,19 +265,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.SSOApplication" />
-      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Application.BlogController" />
       <item itemvalue="Spring Boot.ArticleApplication" />
-      <item itemvalue="Spring Boot.MessageApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.FrontUserApplication" />
+      <item itemvalue="Spring Boot.MessageApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ArticleApplication" />
-        <item itemvalue="Spring Boot.FrontUserApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.MessageApplication" />
-        <item itemvalue="Spring Boot.SSOApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.FrontUserApplication" />
+        <item itemvalue="Application.BlogController" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +317,21 @@
       <workItem from="1601433096793" duration="11671000" />
       <workItem from="1602290906930" duration="2639000" />
       <workItem from="1602565091009" duration="1211000" />
-      <workItem from="1602578496169" duration="61083000" />
+      <workItem from="1602578496169" duration="71998000" />
+      <workItem from="1604390347711" duration="57238000" />
+      <workItem from="1605681290748" duration="30000" />
+      <workItem from="1607410378944" duration="32965000" />
+      <workItem from="1608254235625" duration="2523000" />
+      <workItem from="1609993170867" duration="4050000" />
+      <workItem from="1611045372825" duration="2000" />
+      <workItem from="1611211486291" duration="1604000" />
+      <workItem from="1611623696084" duration="2614000" />
+      <workItem from="1612232318664" duration="40000" />
+      <workItem from="1612314492494" duration="4232000" />
+      <workItem from="1612837116739" duration="1230000" />
+      <workItem from="1614138801068" duration="15078000" />
+      <workItem from="1615166757456" duration="599000" />
+      <workItem from="1615169120623" duration="21302000" />
     </task>
     <task id="LOCAL-00001" summary="代码第一次提交">
       <created>1602723197298</created>
@@ -296,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603337873740</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="配置提交">
+      <created>1604296256214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604296256214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -334,140 +406,173 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="代码第一次提交" />
     <MESSAGE value="添加aliyun短信服务" />
     <MESSAGE value="主pom文件修改" />
     <MESSAGE value="调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整" />
+    <MESSAGE value="配置提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603763988946">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1607910605005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603763988946" />
-    <state x="708" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602666625417">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607910605005" />
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611213711875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="708" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1602666625417" />
-    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1603337871389">
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611213711875" />
+    <state width="1307" height="466" key="DebuggerActiveHint" timestamp="1615256856659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603337871389" />
-    <state width="461" height="466" key="DebuggerActiveHint" timestamp="1604287843889">
+    <state width="1307" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1615256856659" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1612666664430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="461" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1604287843889" />
-    <state x="226" y="92" key="DiffContextDialog" timestamp="1603337835928">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612666664430" />
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="226" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603337835928" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1602729430875">
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.0.center" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602729430875" />
-    <state x="835" y="416" width="274" height="281" key="Github.ShareDialog" timestamp="1602722808962">
+    <state width="1877" height="297" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.0.left" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="835" y="416" width="274" height="281" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602722808962" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1604287819203">
+    <state width="1877" height="297" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.0.right" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604287819203" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1604287819203">
+    <state width="1877" height="297" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.1.bottom" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604287819203" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1604287819203">
+    <state width="1877" height="297" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.1.center" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604287819203" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1604287819203">
+    <state width="1877" height="297" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.1.left" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604287819203" />
-    <state width="1877" height="327" key="GridCell.Tab.1.bottom" timestamp="1604287831541">
+    <state width="1877" height="297" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.1.right" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604287831541" />
-    <state width="1877" height="327" key="GridCell.Tab.1.center" timestamp="1604287831541">
+    <state width="1877" height="297" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.2.bottom" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604287831541" />
-    <state width="1877" height="327" key="GridCell.Tab.1.left" timestamp="1604287831541">
+    <state width="1877" height="297" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.2.center" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604287831541" />
-    <state width="1877" height="327" key="GridCell.Tab.1.right" timestamp="1604287831541">
+    <state width="1877" height="297" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.2.left" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604287831541" />
-    <state width="1877" height="327" key="GridCell.Tab.2.bottom" timestamp="1604287819108">
+    <state width="1877" height="297" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state width="1877" height="297" key="GridCell.Tab.2.right" timestamp="1615272638561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604287819108" />
-    <state width="1877" height="327" key="GridCell.Tab.2.center" timestamp="1604287819108">
+    <state width="1877" height="297" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615272638561" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1607930732318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604287819108" />
-    <state width="1877" height="327" key="GridCell.Tab.2.left" timestamp="1604287819108">
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607930732318" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1614927291811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604287819108" />
-    <state width="1877" height="327" key="GridCell.Tab.2.right" timestamp="1604287819108">
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1614927291811" />
+    <state x="452" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614927449496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604287819108" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1603335411079">
+    <state x="452" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614927449496" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616467300741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603335411079" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603337878691">
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616467300741" />
+    <state x="580" y="246" width="759" height="548" key="find.popup" timestamp="1615257786319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603337878691" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602666710192">
+    <state x="580" y="246" width="759" height="548" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615257786319" />
+    <state x="330" y="122" key="new project wizard" timestamp="1607936302267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602666710192" />
-    <state x="452" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603877857196">
+    <state x="330" y="122" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607936302267" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614671134608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603877857196" />
-    <state x="580" y="246" width="759" height="548" key="find.popup" timestamp="1603878072086">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="580" y="246" width="759" height="548" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603878072086" />
-    <state x="330" y="122" key="new project wizard" timestamp="1603335401410">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="330" y="122" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603335401410" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1602728944516">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602728944516" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603173391936">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603173391936" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614671134608" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/front-user/src/main/java/com/shenzc/artiicleCategory/service/FrontMenuService.java</url>
+          <url>file://$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/controller/OssController.java</url>
           <line>25</line>
-          <option name="timeStamp" value="43" />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/front-user/src/main/java/com/shenzc/artiicleCategory/service/FrontMenuService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/service/BlogService.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/article/src/main/java/com/shenzc/artiicleCategory/controller/BlogController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/shenzc/utils/ExcelUtils.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/shenzc/utils/ExcelUtils.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/shenzc/utils/ExcelUtils.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/shenzc/utils/ExcelUtils.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/shenzc/service/SSOService.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/shenzc/service/HttpAPIService.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/shenzc/service/HttpAPIService.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aliyun/src/main/java/com/shenzc/service/MessageService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -479,26 +584,16 @@
         <watch expression="menuService.getList(menuVo)" language="JAVA" />
         <watch expression="CommonPage.restPage(list)" language="JAVA" />
         <watch expression="httpServletRequest.getHeader(&quot;123&quot;)" language="JAVA" />
+        <watch expression="stringStringValueOperations" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="map1" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>httpServletRequest.getHeader(&quot;123&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>httpServletRequest.getHeader(&quot;Authorization&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>CommonPage.restPage(list)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/blog$FrontUserApplication.ic" NAME="FrontUserApplication Coverage Results" MODIFIED="1604391596485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.shenzc.*</FILTER>
+    </SUITE>
   </component>
 </project>

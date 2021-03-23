@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>aliyun-message</module>
+        <module>aliyun</module>
         <module>front-user</module>
     </modules>
     <parent>
@@ -19,11 +19,11 @@
     <packaging>pom</packaging>
 
     <properties>
-        <ooxml>3.17</ooxml>
+        <ooxml>3.8</ooxml>
         <lombok>1.18.0</lombok>
         <mysql>5.1.31</mysql>
         <druid>1.1.10</druid>
-        <mybatis-plus>3.2.0</mybatis-plus>
+        <mybatis-plus>3.3.0</mybatis-plus>
         <springBoot>2.2.6.RELEASE</springBoot>
         <junit>4.13-beta-1</junit>
         <fastJson>1.2.62</fastJson>
@@ -35,18 +35,35 @@
         <redis-common-pool2>2.4.2</redis-common-pool2>
         <aliyun-message>4.5.3</aliyun-message>
         <http>4.5.6</http>
+        <oss>2.8.3</oss>
+        <validation>1.1.0.Final</validation>
         <projectVersion>1.0-SNAPSHOT</projectVersion>
     </properties>
 
     <dependencyManagement>
+        <!--excel导入导出-->
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <exclusions><!-- 去掉springboot默认配置 -->
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
             </dependency>
             <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+            </dependency>
+            <dependency> <!-- 引入log4j2依赖 -->
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
+                <artifactId>spring-boot-starter-log4j2</artifactId>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -111,6 +128,12 @@
                 <groupId>com.aliyun</groupId>
                 <artifactId>aliyun-java-sdk-core</artifactId>
             </dependency>
+            <!--oss-->
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+            </dependency>
+            <!--http-->
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
